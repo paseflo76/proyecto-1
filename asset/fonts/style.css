@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'RobotoFontRegular';
+  src: url('./Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: 'RobotoFontRegular';
+}
+@font-face {
+  font-family: 'RobotoFontLight';
+  src: url('./Roboto/Roboto-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.roboto-light {
+  font-family: 'RobotoFontLight';
+}
+@font-face {
+  font-family: 'RobotoFontitalic';
+  src: url('./Roboto/Roboto-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.roboto-italic {
+  font-family: 'RobotoFontitalic';
+}
+.roboto-italic:hover {
+  background-color: blue;
+  color: chartreuse;
+}
+
+button:active {
+  color: orange;
+  font-weight: bold;
+}
+
+a:any-link {
+  color: crimson;
+  font-weight: bold;
+}
+input:checked + label {
+  color: crimson;
+}
+input:default + label {
+  color: green;
+}
+button:disabled {
+  color: red;
+}
+button:disabled {
+  color: red;
+}
+
+button:enabled {
+  color: green;
+}
+li:first-child {
+  color: crimson;
+}
+li:last-child {
+  color: crimson;
+}
+li::after {
+  content: '✅';
+  padding-left: 3px;
+}
+li::before {
+  content: '❤️';
+  padding-right: 4px;
+  color: orange;
+}
+
+li {
+  list-style-type: none;
+}
+
+input:focus {
+  background-color: burlywood;
+}
+.prueva {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15%;
+  box-shadow: 10px 10px 5px 0px black;
+}
+
+.prueva:hover {
+  background-color: crimson;
+}
+input:invalid {
+  background-color: crimson;
+}
+a:link {
+  color: red;
+}
+li:nth-child(2n) {
+  color: orange;
+}
+h2::first-letter {
+  font-size: 300%;
+}
+.margin-example {
+  width: 800px;
+  margin: auto;
+  height: 100;
+  padding: 20px;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+div {
+  border-color: gray;
+  border-width: 3px;
+  border-style: solid;
+}
+.shadow-example {
+  overflow: auto;
+  box-shadow: 10px 10px 5px black;
+  width: 500px;
+  margin: auto;
+  height: 100%;
+}
